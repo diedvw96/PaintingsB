@@ -13,8 +13,8 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 });
 
 // Register services with scoped lifetime
-builder.Services.AddScoped<UserRepository>();
-builder.Services.AddTransient<IUserService, UserService>();
+builder.Services.AddScoped<PaintingRepository>();
+builder.Services.AddTransient<IPaintingService, PaintingService>();
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

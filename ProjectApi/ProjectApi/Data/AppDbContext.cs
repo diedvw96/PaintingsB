@@ -10,6 +10,6 @@ namespace ProjectApi.Data
         }
 
         // Define your DbSet properties here for each database table
-        public DbSet<User> Users { get; set; }
+        public DbSet<Painting> Paintings { get; set; }
     }
 }
