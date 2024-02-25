@@ -1,6 +1,16 @@
-body {
+html, body {
     background-image: url('../../public/images/app-background.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    height: 100%;
+    margin: 0; 
+    padding: 0;
+}
+
+.main-body {
+    background-color: #C9CFC9; 
+    height: 100vh; 
+    margin: 0 auto; 
+    width: 65vw; 
 }
