@@ -1,24 +1,12 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { Button } from '@mui/material';
 
 function App() {
+  const bgUrl = process.env.PUBLIC_URL + '/images/app-background.png'
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div style={{ backgroundImage: bgUrl}}>
+      Hello world!
+      {/* <img src={process.env.PUBLIC_URL + '/images/app-background.png'} alt="Example" /> */}
+      <Button color="primary">Primary Button</Button>
     </div>
   );
 }
