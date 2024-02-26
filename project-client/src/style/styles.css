@@ -1,5 +1,5 @@
 html, body {
-    background-image: url('../../public/images/app-background.png');
+    background-image: url('../../public/images/app-background2.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -9,8 +9,13 @@ html, body {
 }
 
 .main-body {
-    background-color: #C9CFC9; 
-    height: 100vh; 
+    background-color: #383838; 
+    height: 100%; 
     margin: 0 auto; 
-    width: 65vw; 
+    width: 65%; 
+}
+
+.grid-container {
+    display: flex;
+    justify-content: center; /* Horizontally center the grid */
 }
