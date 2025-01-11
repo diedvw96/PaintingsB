@@ -13,6 +13,8 @@ html, body {
     height: 100%; 
     margin: 0 auto; 
     width: 65%; 
+    display: flex;
+    justify-content: center; 
 }
 
 .grid-container {
@@ -20,16 +22,46 @@ html, body {
     justify-content: center; 
 }
 
+
 .carousel {
     display: flex;
     justify-content: center; 
-    flex-direction: column;
+    align-items: center;
 }
 
 .carousel-item {
     display: flex;
-    justify-content: center;
-    max-height: 300px;
+    justify-content: center;  
+    height: 300px;
     max-width: 100%;
     margin-bottom: 10px;
+}
+
+
+
+.carousel-button {
+    height: 50px;
+    display: flex; 
+    transform: translateY(-50%);
+}
+
+.carousel-image {
+    width: 300px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.carousel-image-extra {
+    width: 300px;
+    gap: 10px;
+    margin-right: 10px;
+}
+
+@media screen and (max-width: 1600px){
+    .main-body {
+        width: 55%;
+    }
+    .carousel-image-extra {
+        display: none;
+    }
 }

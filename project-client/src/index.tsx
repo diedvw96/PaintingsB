@@ -6,8 +6,16 @@ import { ThemeProvider } from '@mui/material/styles';
 import { lightTheme, darkTheme } from './style/theme';
 import './style/styles.css';
 import { Button, CssBaseline } from '@mui/material';
+import LightModeIcon from '@mui/icons-material/LightMode';
+import DarkModeIcon from '@mui/icons-material/DarkMode';
 
 function Root() {
+  const [open, setOpen] = useState<boolean>(false); // Specify the type of the state
+
+  const toggleDrawer = (): void => {
+    setOpen(prevOpen => !prevOpen);
+  };
+  
   const [darkMode, setDarkMode] = useState(false);
 
   const toggleDarkMode = () => {
@@ -31,7 +39,7 @@ function Root() {
     <React.StrictMode>
       <ThemeProvider theme={darkMode ? darkTheme : lightTheme}>
         <CssBaseline />
-        <App />
+        <App toggleDrawer={toggleDrawer} open={open} />
         <Button onClick={toggleDarkMode} 
         style={{
               position: 'absolute',
@@ -39,7 +47,7 @@ function Root() {
               right: 10,
               zIndex: 9999, 
             }}>
-          {darkMode ? 'Switch to Light Mode' : 'Switch to Dark Mode'}
+          {darkMode ? <LightModeIcon/> : <DarkModeIcon/> }
         </Button>
       </ThemeProvider>
     </React.StrictMode>
