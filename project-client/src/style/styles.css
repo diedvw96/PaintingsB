@@ -17,5 +17,19 @@ html, body {
 
 .grid-container {
     display: flex;
-    justify-content: center; /* Horizontally center the grid */
+    justify-content: center; 
+}
+
+.carousel {
+    display: flex;
+    justify-content: center; 
+    flex-direction: column;
+}
+
+.carousel-item {
+    display: flex;
+    justify-content: center;
+    max-height: 300px;
+    max-width: 100%;
+    margin-bottom: 10px;
 }

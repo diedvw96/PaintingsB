@@ -53,7 +53,7 @@ export const lightTheme = createTheme({
     },
   },
   shape: {
-    borderRadius: 8, // Rounded corners
+    borderRadius: 8, 
   },
   components: {
     MuiButton: {
@@ -63,7 +63,7 @@ export const lightTheme = createTheme({
           fontSize: '16px',
           backgroundColor: '#C7C7C7', // Lighter background
           color: '#1F1F1F', // Dark text color
-          padding: '10px 20px', // Adjust padding as needed
+          padding: '10px 20px',
           position: 'relative',
           overflow: 'hidden',
           transition: 'color 0.3s, background-color 0.3s',
@@ -92,8 +92,8 @@ export const lightTheme = createTheme({
     MuiAppBar: {
       styleOverrides: {
         root: {
-          boxShadow: 'none', // No shadow for app bar
-          borderBottom: '1px solid #ddd', // Border bottom for app bar
+          boxShadow: 'none', 
+          borderBottom: '1px solid #ddd', 
         },
       },
     }, 
@@ -163,7 +163,7 @@ export const darkTheme = createTheme({
     },
   },
   shape: {
-    borderRadius: 8, // Rounded corners
+    borderRadius: 8, 
   },
   components: {    
     MuiButton: {
@@ -173,7 +173,7 @@ export const darkTheme = createTheme({
           fontSize: '16px',
           backgroundColor: '#0A0B0A', // Black background
           color: '#ffffff', // White text        
-          padding: '10px 20px', // Adjust padding as needed
+          padding: '10px 20px', 
           position: 'relative',
           overflow: 'hidden',
           transition: 'color 0.3s, background-color 0.3s',
@@ -187,8 +187,8 @@ export const darkTheme = createTheme({
             left: 0,
             width: '100%',
             height: '100%',
-            // backgroundImage: 'url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=")', // Add texture image URL here
-            opacity: 0.1, // Adjust opacity as needed
+            // backgroundImage: 'url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=")',
+            opacity: 0.1,
             pointerEvents: 'none',
             zIndex: 0,
           },
@@ -203,8 +203,8 @@ export const darkTheme = createTheme({
     MuiAppBar: {
       styleOverrides: {
         root: {
-          boxShadow: 'none', // No shadow for app bar
-          borderBottom: '1px solid #ddd', // Border bottom for app bar
+          boxShadow: 'none', 
+          borderBottom: '1px solid #ddd', 
         },
       },
     },

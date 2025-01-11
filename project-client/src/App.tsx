@@ -1,6 +1,10 @@
 import { BrowserRouter as Router, Route, Link, Routes } from 'react-router-dom';
 import { AppBar, Toolbar, Typography, Container, Button, Grid, Stack } from '@mui/material';
 import Home from './components/Home';
+import Collection from './components/Collection';
+import Contact from './components/Contact';
+import Profile from './components/Profile';
+import Shop from './components/Shop';
 
 function App() {
   return (
@@ -26,10 +30,10 @@ function App() {
               <Grid item xs={12}> 
                 <Routes>
                   <Route path="/" element={<Home />}/>
-                  <Route path="/collection" element={<div></div>} />
-                  <Route path="/shop" element={<div></div>} />
-                  <Route path="/profile" element={<div></div>} />
-                  <Route path="/contact" element={<div></div>} />
+                  <Route path="/collection" element={<Collection />} />
+                  <Route path="/shop" element={<Shop />} />
+                  <Route path="/profile" element={<Profile />} />
+                  <Route path="/contact" element={<Contact />} />
                 </Routes>                            
               </Grid>
             </Grid>
