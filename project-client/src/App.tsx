@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Route, Link, Routes } from 'react-router-dom';
-import { AppBar, Toolbar, Typography, Container, Button, Grid, Stack, useMediaQuery, Drawer, Box, List, ListItem, ListItemButton, ListItemIcon, ListItemText } from '@mui/material';
+import { AppBar, Toolbar, Typography, Container, Button, Grid, Stack, useMediaQuery, Drawer, Box, List, ListItem, ListItemButton, ListItemIcon, ListItemText, paperClasses } from '@mui/material';
 import Home from './components/Home';
 import Collection from './components/Collection';
 import Contact from './components/Contact';
@@ -43,7 +43,7 @@ function App({ toggleDrawer, open }: AppProps): JSX.Element {
                   <Button color="inherit" component={Link} to="/contact">Contact</Button>
                 </div>
               )}
-              <Drawer open={open} onClose={toggleDrawer}>
+              <Drawer open={open} onClose={toggleDrawer}> 
                 <Box sx={{ width: 250 }} role="presentation" onClick={toggleDrawer}>
                   <List>
                     {['', 'Collection', 'Shop', 'Profile', 'Contact'].map((text, index) => (
@@ -56,7 +56,7 @@ function App({ toggleDrawer, open }: AppProps): JSX.Element {
                             {index === 3 && <PersonIcon />}
                             {index === 4 && <MailIcon />}
                           </ListItemIcon>
-                          <ListItemText primary={text} />
+                          <ListItemText primary={text === '' ? 'Home' : text} />
                         </ListItemButton>
                       </ListItem>
                     ))}

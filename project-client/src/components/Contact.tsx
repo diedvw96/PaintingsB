@@ -13,8 +13,8 @@ const Contact: React.FC = () => {
       <Grid container spacing={4}>
         <Grid item xs={12} md={6}>
           <Typography variant="h6">Personal Information</Typography>
-          <Typography>Name: John Doe</Typography>
-          <Typography>Email: artist@example.com</Typography>
+          <Typography>Name: Berry Doekemijer</Typography>
+          <Typography>Email: Berry@gmail.com</Typography>
           <Typography>Phone: +31 6 1234 5678</Typography>
           <Typography>Location: Kunsthal Rotterdam</Typography>
           <Box mt={2}>
