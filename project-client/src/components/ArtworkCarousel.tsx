@@ -22,9 +22,7 @@ const ArtworkCarousel: React.FC = () => {
         <Button className='carousel-button' size="small" onClick={handleBack}>              
             <KeyboardArrowLeft />               
         </Button>
-        <div className='carousel-item'>
-            
-            
+        <div className='carousel-item'>          
             <img 
                 className='carousel-image'
                 src={artwork[getIndex(activeStep)].imgSrc} 

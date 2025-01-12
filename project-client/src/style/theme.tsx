@@ -1,5 +1,7 @@
 import { createTheme } from '@mui/material/styles';
 
+
+// LIGHT THEME
 export const lightTheme = createTheme({
   palette: {
     primary: {
@@ -111,10 +113,17 @@ export const lightTheme = createTheme({
         },
       },
     },
+    MuiSvgIcon: {
+      styleOverrides: {
+        root: {
+          color: '#000000',
+        }
+      }
+    }
   },
 });
 
-
+// DARK THEME
 
 export const darkTheme = createTheme({
   palette: 
@@ -230,6 +239,13 @@ export const darkTheme = createTheme({
         },
       },
     },
+    MuiSvgIcon: {
+      styleOverrides: {
+        root: {
+          color: '#FFFFFF',
+        }
+      }
+    }
   },
 });
 

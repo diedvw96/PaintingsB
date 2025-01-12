@@ -6,7 +6,6 @@ const Profile: React.FC = () => {
     <Box sx={{ padding: 4 }}>
       <Typography variant="h4" gutterBottom>About the Artist</Typography>
       <Grid container spacing={4}>
-        {/* Artist Image */}
         <Grid item xs={12} md={4}>
           <Card>
             <CardMedia
@@ -16,8 +15,6 @@ const Profile: React.FC = () => {
             />
           </Card>
         </Grid>
-
-        {/* Story Section */}
         <Grid item xs={12} md={8}>
           <Typography variant="h6" gutterBottom>Biography</Typography>
           <Typography paragraph>
@@ -33,8 +30,6 @@ const Profile: React.FC = () => {
             vitae eget orci. Morbi eu felis a tortor feugiat blandit nec quis urna.
           </Typography>
         </Grid>
-
-        {/* Additional Images */}
         <Grid item xs={12} md={6}>
           <Card>
             <CardMedia
@@ -65,8 +60,6 @@ const Profile: React.FC = () => {
             </CardContent>
           </Card>
         </Grid>
-
-        {/* More Story Content */}
         <Grid item xs={12}>
           <Typography variant="h6" gutterBottom>Artistic Journey</Typography>
           <Typography paragraph>
