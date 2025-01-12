@@ -12,7 +12,7 @@ html, body {
     background-color: #383838; 
     height: 100%; 
     margin: 0 auto; 
-    width: 65%; 
+    width: 62%; 
     display: flex;
     justify-content: center; 
 }
@@ -20,8 +20,8 @@ html, body {
 .grid-container {
     display: flex;
     justify-content: center; 
+    margin-left: 5%;
 }
-
 
 .carousel {
     display: flex;
@@ -36,8 +36,6 @@ html, body {
     max-width: 100%;
     margin-bottom: 10px;
 }
-
-
 
 .carousel-button {
     height: 50px;
@@ -59,7 +57,11 @@ html, body {
 
 @media screen and (max-width: 1600px){
     .main-body {
-        width: 55%;
+        width: 54%;
+    }
+    
+    .grid-container {
+        margin-left: 0%;   
     }
     .carousel-image-extra {
         display: none;

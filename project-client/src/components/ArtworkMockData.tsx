@@ -1,16 +1,16 @@
 export const imageData = [
-    'https://placehold.co/375x200/EEE/31343C',
-    'https://placehold.co/375x300/EEE/31343C',
-    'https://placehold.co/375x400/EEE/31343C',
-    'https://placehold.co/375x400/EEE/31343C',
-    'https://placehold.co/375x600/EEE/31343C',
-    'https://placehold.co/375x300/EEE/31343C',
-    'https://placehold.co/375x300/EEE/31343C',
-    'https://placehold.co/375x200/EEE/31343C',
-    'https://placehold.co/375x400/EEE/31343C',
-    'https://placehold.co/375x400/EEE/31343C',
-    'https://placehold.co/375x600/EEE/31343C',
-    'https://placehold.co/375x300/EEE/31343C',
+    'https://placehold.co/320x200/EEE/31343C',
+    'https://placehold.co/320x300/EEE/31343C',
+    'https://placehold.co/320x400/EEE/31343C',
+    'https://placehold.co/320x400/EEE/31343C',
+    'https://placehold.co/320x600/EEE/31343C',
+    'https://placehold.co/320x300/EEE/31343C',
+    'https://placehold.co/320x300/EEE/31343C',
+    'https://placehold.co/320x200/EEE/31343C',
+    'https://placehold.co/320x400/EEE/31343C',
+    'https://placehold.co/320x400/EEE/31343C',
+    'https://placehold.co/320x600/EEE/31343C',
+    'https://placehold.co/320x300/EEE/31343C',
   ];
   
   export interface Artwork {

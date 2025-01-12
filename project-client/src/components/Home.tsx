@@ -11,9 +11,9 @@ const Home: React.FC = () => {
     if (gridRef.current && imagesLoaded) {
       new Masonry(gridRef.current, {
         itemSelector: '.grid-item',
-        columnWidth: 375,
+        columnWidth: 320,
         gutter: 10,
-        originLeft: false,
+        originLeft: true,
         fitWidth: true,
       });
     }
