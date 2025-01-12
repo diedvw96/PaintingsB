@@ -20,7 +20,7 @@ html, body {
 .grid-container {
     display: flex;
     justify-content: center; 
-    margin-left: 5%;
+    margin-left: 9%;
 }
 
 .carousel {
@@ -61,7 +61,7 @@ html, body {
     }
     
     .grid-container {
-        margin-left: 0%;   
+        margin-left: 2%;   
     }
     .carousel-image-extra {
         display: none;

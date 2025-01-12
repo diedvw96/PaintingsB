@@ -11,7 +11,7 @@ const Home: React.FC = () => {
     if (gridRef.current && imagesLoaded) {
       new Masonry(gridRef.current, {
         itemSelector: '.grid-item',
-        columnWidth: 320,
+        columnWidth: 300,
         gutter: 10,
         originLeft: true,
         fitWidth: true,
@@ -47,7 +47,7 @@ const Home: React.FC = () => {
     <div ref={gridRef} className='grid-container' style={{ visibility: imagesLoaded ? 'visible' : 'hidden' }}>
       {imageData.map((imageUrl, index) => (
         <div className="grid-item" key={index}>
-          <img src={imageUrl} alt={`${index}`} />
+          <img src={imageUrl} alt={`${index}`} style={{maxWidth: '300px' }}/>
         </div>
       ))}
     </div>
