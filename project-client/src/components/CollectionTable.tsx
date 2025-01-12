@@ -1,5 +1,5 @@
 import React from 'react';
-import { artwork } from './ArtworkMockData';
+import { artwork } from '../models/ArtworkMockData';
 
 const HomeImageTable: React.FC = () => {
   return (

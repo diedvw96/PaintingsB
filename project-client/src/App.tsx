@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Route, Link, Routes } from 'react-router-dom';
-import { AppBar, Toolbar, Typography, Container, Button, Grid, Stack, useMediaQuery, Drawer, Box, List, ListItem, ListItemButton, ListItemIcon, ListItemText, paperClasses } from '@mui/material';
+import { AppBar, Toolbar, Typography, Container, Button, Grid, Stack, useMediaQuery, Drawer, Box, List, ListItem, ListItemButton, ListItemIcon, ListItemText} from '@mui/material';
 import Home from './components/Home';
 import Collection from './components/Collection';
 import Contact from './components/Contact';

@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react';
 import Masonry from 'masonry-layout';
-import { imageData } from './ArtworkMockData';
+import { imageData } from '../models/ArtworkMockData';
 
 const Home: React.FC = () => {
   const gridRef = useRef<HTMLDivElement>(null);

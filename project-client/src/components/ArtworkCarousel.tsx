@@ -2,7 +2,7 @@ import * as React from 'react';
 import Button from '@mui/material/Button';
 import KeyboardArrowLeft from '@mui/icons-material/KeyboardArrowLeft';
 import KeyboardArrowRight from '@mui/icons-material/KeyboardArrowRight';
-import { artwork } from './ArtworkMockData';
+import { artwork } from '../models/ArtworkMockData';
 
 const ArtworkCarousel: React.FC = () => {
   const [activeStep, setActiveStep] = React.useState(0);
@@ -23,6 +23,8 @@ const ArtworkCarousel: React.FC = () => {
             <KeyboardArrowLeft />               
         </Button>
         <div className='carousel-item'>
+            
+            
             <img 
                 className='carousel-image'
                 src={artwork[getIndex(activeStep)].imgSrc} 

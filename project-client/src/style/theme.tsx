@@ -107,10 +107,10 @@ export const lightTheme = createTheme({
     MuiDrawer: {
       styleOverrides: {
         paper: {
-          backgroundColor: '#C7C7C7' 
-        }    
-      }
-    }
+          backgroundColor: '#C7C7C7', 
+        },
+      },
+    },
   },
 });
 
@@ -226,10 +226,10 @@ export const darkTheme = createTheme({
     MuiDrawer: {
       styleOverrides: {
         paper: {
-          backgroundColor: '#1F1F1F' 
-        }    
-      }
-    } 
+          backgroundColor: '#1F1F1F', 
+        },
+      },
+    },
   },
 });
 
