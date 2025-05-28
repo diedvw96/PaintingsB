@@ -1,0 +1,94 @@
+html, body {
+    background-image: url('../../public/images/app-background2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100%;
+    margin: 0; 
+    padding: 0;
+}
+
+.main-body {
+    background-color: #383838; 
+    height: 100%; 
+    margin: 0 auto; 
+    width: 62%; 
+    display: flex;
+    justify-content: center; 
+}
+
+.grid-container {
+    display: flex;
+    justify-content: center; 
+    margin-left: 9%;
+}
+
+.collection-item {
+    display: flex;          
+    border: 4px solid #ccc; 
+    padding: 5px;
+    margin-bottom: 20px; 
+    max-height: 400px;
+    overflow: 'hidden';
+}
+
+.collection-img {
+    width: 50%;
+    object-fit: cover; 
+    height: 300px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.collection-info {
+    width: 50%;
+    padding: 10px; 
+    overflow-y: auto;
+    height: 300px;
+}
+
+.carousel {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.carousel-item {
+    display: flex;
+    justify-content: center;  
+    height: 300px;
+    max-width: 100%;
+    margin-bottom: 10px;
+}
+
+.carousel-button {
+    height: 50px;
+    display: flex; 
+    transform: translateY(-50%);
+}
+
+.carousel-image {
+    width: 300px;
+    border-radius: 5%;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.carousel-image-extra {
+    width: 300px;
+    gap: 10px;
+    margin-right: 10px;
+}
+
+@media screen and (max-width: 1600px){
+    .main-body {
+        width: 54%;
+    }
+    
+    .grid-container {
+        margin-left: 2%;   
+    }
+    .carousel-image-extra {
+        display: none;
+    }
+}

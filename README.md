@@ -1,2 +1,4 @@
-# ProjectA
- template .net 8 API with React ts front for multiple projects to use
+# ProjectAPainting
+http://localhost:5041/swagger/index.html
+
+
