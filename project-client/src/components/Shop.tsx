@@ -4,6 +4,6 @@ const Shop: React.FC = () => {
     return (
         <ArtworkCarousel />
     );
-  };
-  
-  export default Shop;
+};
+
+export default Shop;
